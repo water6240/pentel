@@ -106,6 +106,9 @@ body {
     scale: 1.1;
 }
 
+.card-content {
+}
+
 /* ARTICLE */
 .article-catalog {
     border-radius: 99999px;
@@ -119,6 +122,11 @@ body {
 .article-content {
 }
 .article-date {
+    color: #919191;
+    font-size: 0.55rem;
+    font-weight: var(--font-weight-heavey);
+}
+.article-note {
     color: #919191;
     font-size: 0.55rem;
     font-weight: var(--font-weight-heavey);
@@ -398,6 +406,55 @@ ul.content-newproducts li {
     margin-bottom: 0.5rem;
     padding: 0 12px;
 }
+
+/* SIGNATUREBRANDS */
+.section-signaturebrands {
+    position: relative;
+    margin: 0 0 7rem 6.25rem;
+}
+.section-signaturebrands ul.content-signaturebrands {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ul.content-signaturebrands li {
+    margin: auto;
+}
+ul.content-signaturebrands li + li {
+    border-top: 1px solid #b8b8b8;
+}
+ul.content-signaturebrands .card {
+    display: flex;
+    position: relative;
+}
+ul.content-signaturebrands .card-decorate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.652rem;
+    color: var(--main-color);
+    font-weight: var(--font-weight-heavey);
+}
+ul.content-signaturebrands .card-content {
+    padding: 0.125rem 12rem 1.625rem 1.825rem;
+}
+ul.content-signaturebrands .card-content h3 {
+    font-size: 2rem;
+}
+ul.content-signaturebrands .card-content span {
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-heavey);
+    color: #888888;
+}
+ul.content-signaturebrands .card-img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: unset;
+    right: 0;
+    top: 0.125rem;
+}
+
 /* FOOTER */
 .footer {
 }
